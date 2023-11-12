@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Assets/Admin/AdminLayoutCSS.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/eaf1554704.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="row">
+            <div class="wrapper">
+                <ul class="col-2 navbar-nav bg-primary-color">
+                    <a href="" class="logo">
+                        <img style="margin-left: 12px" src="~/Areas/Admin/Data/Img/hd_page-logo.png" />
+                    </a>
+                    <hr class="sidebar-divider my-0">
+                    <li class="nav-item p-8 active">
+                        <a href="#" class="nav-link">
+                            <i class="fa fa-solid fa-chart-line fa-beat opacity-100"></i>
+                            <span class="fw-bold">Dashboard</span>
+                        </a>
+                    </li>
+                    <hr class="sidebar-divider my-0">
+                    <li class="nav-item p-8">
+                        <a href="#" class="nav-link">
+                            <i class="fa fa-solid fa-tags fa-beat"></i>
+                            <span>Loại sản phẩm</span>
+                        </a>
+                    </li>
+                    <li class="nav-item p-8">
+                        <a href="#" class="nav-link">
+                            <i class="fa fa-solid fa-tags fa-beat"></i>
+                            <span>Sản phẩm</span>
+                        </a>
+                    </li>
+                    <hr class="sidebar-divider my-0">
+                    <li class="nav-item p-8">
+                        <a href="#" class="nav-link">
+                            <i class="fa fa-solid fa-tags fa-beat"></i>
+                            <span>Đơn hàng</span>
+                        </a>
+                    </li>
+                    <li class="nav-item p-8">
+                        <a href="#" class="nav-link">
+                            <i class="fa fa-solid fa-tags fa-beat"></i>
+                            <span>Thống kê</span>
+                        </a>
+                    </li>
+                    <hr class="sidebar-divider my-0">
+                    <li class="nav-item p-8">
+                        <a href="#" class="nav-link">
+                            <i class="fa fa-solid fa-tags fa-beat"></i>
+                            <span>Nhà cung cấp</span>
+                        </a>
+                    </li>
+                    <hr class="sidebar-divider my-0">
+                </ul>
+            </div>
+            <div class="col-9">
+
+            </div>
+        </div>
+    </header>
+    @RenderBody()
+</body>
+</html>
+

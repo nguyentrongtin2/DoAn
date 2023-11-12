@@ -1,0 +1,347 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Assets/CSS/MasterLayoutCSS.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/eaf1554704.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header>
+        <div id="header" class="header">
+            <div class="header-top">
+                <div class="container">
+                    <ul class="top-link">
+                        <li>Chào mừng bạn đến với NHÂN VĂN - Siêu thị sách & tiện ích</li>
+                        <li>
+                            <i class="fa fa-regular fa-envelope"></i>
+                            Email: sale@nhanvan.vn
+                        </li>
+                        <li>
+                            <i class="fa fa-solid fa-phone"></i>
+                            Hotline Mua Lẻ: 028.3636.7777
+                        </li>
+                        <li>
+                            <i class="fa fa-solid fa-phone"></i>
+                            Hotline Mua Sỉ: 0813.709.777
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header-middle">
+                <div class="container header-middle-container">
+                    <div class="logo-page">
+                        <a href="@Url.Action("Index", "Home")">
+                            <img src="/AppData/Img/ForMasterLayout/hd_page-logo.png" alt="Alternate Text" />
+                        </a>
+                    </div>
+                    <div class="search-section">
+                        <div class="search-box">
+                            <form class="search-form" action="/search" method="post">
+                                <input type="text" name="name" value="" size="20" placeholder="Tìm kiếm sản phẩm..." />
+                                <button class="search-submit">
+                                    <i class="fa-search fa-solid fa-magnifying-glass"></i>
+                                </button>
+                            </form>
+                        </div>
+                        <ul class="search-keyword">
+                            <li>
+                                <a href="#">Muôn Kiếp Nhân Sinh</a>
+                            </li>
+                            <li>
+                                <a href="#">Nguyễn Nhật Ánh</a>
+                            </li>
+                            <li>
+                                <a href="#">Casio FX580</a>
+                            </li>
+                            <li>
+                                <a href="#">Nhân Số Học</a>
+                            </li>
+                            <li>
+                                <a href="#">Tập Học Sinh</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="header-cart">
+                        <a class="cart-icon">
+                            <i class="fa-cart fa-solid fa-cart-shopping"></i>
+                        </a>
+                        <span class="cart-info">
+                            <a class="cart-title" href="#">Giỏ hàng</a>
+                            <span class="cart-count">
+                                0
+                            </span>
+                        </span>
+                    </div>
+                    <div class="header-user">
+                        <div class="user-icon">
+                            <i class="fa-user fa-solid fa-user"></i>
+                        </div>
+                        <!--<p>Xin chào</p>-->
+                        <a href="#">Đăng nhập</a>
+                        <span>/</span>
+                        <a href="#">Đăng kí</a>
+                    </div>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <div class="container">
+                    <div class="vertical-menu">
+                        <div class="title-block">
+                            <span>Danh mục</span>
+                            <i class="fa-menu fa-solid fa-bars"></i>
+                        </div>
+                    </div>
+                    <div class="horizontal-menu">
+                        <ul class="menu-nav">
+                            <li>
+                                <a class="ship2h" href="#">GIAO HÀNG NHANH 2H</a>
+                            </li>
+                            <li>
+                                <a href="#">SÁCH ĐỘC QUYỀN</a>
+                            </li>
+                            <li>
+                                <a href="#">SALES TRONG THÁNG</a>
+                            </li>
+                            <li>
+                                <a href="#">SÁCH MỚI</a>
+                            </li>
+                            <li>
+                                <a href="#">KIỂM TRA ĐƠN HÀNG</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div>
+        @RenderBody()
+    </div>
+    <div class="section-newsletter container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <i class="icon-mail">
+                        <img style="height: 42.25px" src="~/AppData/Img/ForHome/icon-mail.png" />
+                    </i>
+                </div>
+                <div class="col-4">
+                    <div class="newsletter-title">
+                        <h4>ĐĂNG KÝ NHẬN TIN</h4>
+                    </div>
+                </div>
+                <div class="col-6 email-form">
+                    <input type="email" class="form-control form-control-lg" id="FormControlInput" placeholder="nhập địa chỉ email của bạn">
+                    <button type="submit" class="button">ĐĂNG KÍ</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-top">
+            <div class="container footer-container">
+                <div class="contact">
+                    <h4 class="footer-title">
+                        LIÊN HỆ <br />
+                        <i class="fa fa-regular fa-window-minimize"></i>
+                        <i class="fa fa-regular fa-window-minimize line"></i>
+                    </h4>
+                    <div class="footer-content">
+                        <ul class="list-footer">
+                            <li class="name-company">
+                                <p>CÔNG TY CỔ PHẦN VĂN HÓA NHÂN VĂN</p>
+                                <p>
+                                    <span>MST:</span>
+                                    <i>0302229082</i>
+                                </p>
+                            </li>
+                            <li class="item-map">
+                                <i class="fa fa-solid fa-location-dot"></i>
+                                <span>Địa chỉ</span>
+                                Số 1 Trường Chinh, P.11, Q.Tân Bình, Tp.Hồ Chí Minh
+                            </li>
+                            <li class="item-phone">
+                                <i class="fa fa-solid fa-phone-volume"></i>
+                                <span>Hotline</span>
+                                028.3636.7777 - 0813.709.777
+                            </li>
+                            <li class="item-mail">
+                                <i class="fa fa-regular fa-envelope"></i>
+                                <span>Email</span>
+                                028.3636.7777 - 0813.709.777
+                            </li>
+                            <li class="item-opentime">
+                                <i class="fa fa-regular fa-clock"></i>
+                                <span>Giờ mở cửa:</span>
+                                Từ thứ 2 đến chủ nhật: 7h30 - 21h30
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="logo-bct">
+                        <a href="http://online.gov.vn/Home/WebDetails/45304">
+                            <img src="/AppData/Img/ForMasterLayout/ft_logo-bct.png" alt="Bộ Công Thương" style="padding-bottom: 10px;" />
+                        </a>
+                    </div>
+                    <ul class="list-social">
+                        <li>
+                            <a href="https://www.facebook.com/nhanvansaigon">
+                                <img class="footer-social-icon" src="/AppData/Img/ForMasterLayout/ft_icon-facebook.png" alt="Facebook" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/nhanvansaigon">
+                                <img class="footer-social-icon" src="/AppData/Img/ForMasterLayout/ft_icon-twitter.png" alt="Twitter" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/nhanvansaigon">
+                                <img class="footer-social-icon" src="/AppData/Img/ForMasterLayout/ft_icon-pinterest.png" alt="Pinterest" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/nhanvansaigon">
+                                <img class="footer-social-icon" src="/AppData/Img/ForMasterLayout/ft_icon-youtube.png" alt="Youtube" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/nhanvansaigon">
+                                <img class="footer-social-icon" src="/AppData/Img/ForMasterLayout/ft_icon-zalo.png" alt="Zalo" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="information">
+                    <h4 class="footer-title">
+                        THÔNG TIN <br />
+                        <i class="fa fa-regular fa-window-minimize"></i>
+                        <i class="fa fa-regular fa-window-minimize line"></i>
+                    </h4>
+                    <div class="footer-content">
+                        <ul class="list-footer">
+                            <li>
+                                <a href="#">
+                                    Giới thiệu
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Hệ thống cửa hàng
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Chính sách khách sỉ
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Điều khoản sử dụng
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Chính sách bảo mật
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Chính sách đổi trả/hoàn tiền
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="information">
+                    <h4 class="footer-title">
+                        DỊCH VỤ<br />
+                        <i class="fa fa-regular fa-window-minimize"></i>
+                        <i class="fa fa-regular fa-window-minimize line"></i>
+                    </h4>
+                    <div class="footer-content">
+                        <ul class="list-footer">
+                            <li>
+                                <a href="#">
+                                    Tích điểm NV-Point
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Ưu đãi hiện có
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Sách độc quyền
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Ưu đãi VPP
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="fanpage">
+                    <h4 class="footer-title">
+                        FANPAGE FACEBOOK<br />
+                        <i class="fa fa-regular fa-window-minimize"></i>
+                        <i class="fa fa-regular fa-window-minimize line"></i>
+                    </h4>
+                    <div class="footer-content">
+
+                    </div>
+                    <ul class="list-social">
+                        <li>
+                            <a href="https://shopee.vn/nhanvanonline">
+                                <img class="footer-social-icon" src="/AppData/Img/ForMasterLayout/ft_icon-shopee.png" alt="" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://tiki.vn/cua-hang/nhan-van?t=store">
+                                <img class="footer-social-icon" src="/AppData/Img/ForMasterLayout/ft_icon-tiki.png" alt="" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.lazada.vn/shop/nha-sach-nhan-van/?path=index.htm&spm=a2o4n.pdp_revamp.seller.1.76ad3625QjkNYh&itemId=1844231605&channelSource=pdp">
+                                <img class="footer-social-icon" src="/AppData/Img/ForMasterLayout/ft_icon-lazada.png" alt="" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container footer-container">
+                <div class="app-download">
+                    <h3>Tải ứng dụng</h3>
+                    <ul>
+                        <li>
+                            <a href="https://play.google.com/store/apps">
+                                <img style="width: 120px; height: 42px;" src="/AppData/Img/ForMasterLayout/ft_app-store.png" alt="App Store" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.apple.com/app-store/">
+                                <img style="width: 122px; height: 43px;" src="/AppData/Img/ForMasterLayout/ft_google-store.png" alt="Google Store" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="copy-right">
+                    <p>
+                        Copyright © 2023. All Rights Reserved. <br />
+                        <a href="#">Siêu Thị Sách & Tiện Ích Nhân Văn</a>
+                    </p>
+                </div>
+                <div class="payment">
+                    <img src="/AppData/Img/ForMasterLayout/ft_payment.png" alt="Payment" />
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

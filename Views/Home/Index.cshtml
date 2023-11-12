@@ -1,0 +1,2331 @@
+﻿
+@{
+    ViewBag.Title = "TRANG CHỦ";
+    Layout = "~/Views/Shared/MasterLayout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Assets/CSS/HomeCSS.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/eaf1554704.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main>
+        <div class="section section-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9">
+                        <div id="carouselIndicators" class="home-slider carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                            </div>
+
+                            <!-- The slideshow/carousel -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="2000">
+                                    <img src="~/AppData/Img/ForHome/slideshow_1.png" class="d-block w-100" alt="slide1" />
+                                </div>
+                                <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="~/AppData/Img/ForHome/slideshow_2.png" class="d-block w-100" alt="slide2" />
+                                </div>
+                                <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="~/AppData/Img/ForHome/slideshow_3.png" class="d-block w-100" alt="slide3" />
+                                </div>
+                                <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="~/AppData/Img/ForHome/slideshow_4.png" class="d-block w-100" alt="slide4" />
+                                </div>
+                            </div>
+
+                            <!-- Left and right controls/icons -->
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="banner-right flex-column">
+                            <a href="#">
+                                <img src="~/AppData/Img/ForHome/banner_right_img1.png" alt="Hình 1" />
+                            </a>
+                            <a href="#">
+                                <img class="mt-2" src="~/AppData/Img/ForHome/banner_right_img2.png" alt="Hình 2" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section section-2">
+            <div class="container">
+                <div class="list-policy border border-1 p-3">
+                    <div class="item-policy">
+                        <div class="icon-policy">
+                            <a href="#">
+                                <img src="~/AppData/Img/ForHome/policy_index_1.png" />
+
+                            </a>
+                        </div>
+                        <div class="info-policy">
+                            <h5>
+                                <a href="#">KHO TÀNG SÁCH</a>
+                            </h5>
+                            <p class="des">Nơi hội tụ các thể loại sách thuộc vô vàn chủ đề hấp dẫn</p>
+                        </div>
+                    </div>
+                    <div class="item-policy">
+                        <div class="icon-policy">
+                            <img src="~/AppData/Img/ForHome/policy_index_2.png" />
+                        </div>
+                        <div class="info-policy">
+                            <h5>
+                                <a href="#">VĂN PHÒNG PHẨM</a>
+                            </h5>
+                            <p class="des">Đồ dùng văn phòng 100% hàng mới</p>
+                        </div>
+                    </div>
+                    <div class="item-policy">
+                        <div class="icon-policy">
+                            <img src="~/AppData/Img/ForHome/policy_index_3.png" />
+                        </div>
+                        <div class="info-policy">
+                            <h5>
+                                <a href="#">BÁCH HÓA</a>
+                            </h5>
+                            <p class="des">Sản phẩm chính hãng đến từ thương hiệu lớn</p>
+                        </div>
+                    </div>
+                    <div class="item-policy">
+                        <div class="icon-policy">
+                            <img src="~/AppData/Img/ForHome/policy_index_4.png" />
+                        </div>
+                        <div class="info-policy">
+                            <h5>
+                                <a href="#">ĐỒ CHƠI</a>
+                            </h5>
+                            <p class="des">Có nguồn gốc xuất xứ - an toàn</p>
+                        </div>
+                    </div>
+                    <div class="item-policy">
+                        <div class="icon-policy">
+                            <img src="~/AppData/Img/ForHome/policy_index_5.png" />
+                        </div>
+                        <div class="info-policy">
+                            <h5>
+                                <a href="#">THỜI TRANG</a>
+                            </h5>
+                            <p class="des">Đa dạng mẫu mã - độ bền cao</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section section-5 mbt-35">
+            <div class="container">
+                <div class="home-sale">
+                    <div class="section-title title-flex" style="background: #ff5800;">
+                        <p>FLASH SALE</p>
+                    </div>
+                    <div class="border border-1 p-15-26">
+                        <div class="p-0-16 row">
+                            <div class="col-2">
+                                <div class="card">
+                                    <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                    <div class="card-body">
+                                        <div class="card-detail">
+                                            <div class="card-name">
+                                                <a href="#">
+                                                    <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                </a>
+                                            </div>
+                                            <div class="card-price">
+                                                <p class="sale-price primary-color">106,560₫</p>
+                                                <span class="old-price">148,000₫</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <a href="@Url.Action("Index", "Products")">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/bia-ao_chu-dong-trong-the-gioi-bi-dong_final-_1__4b1ccc0b32bc4e88bfa9aa728255c9fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <p>Chủ Động Trong Thế Giới Bị Động</p>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">64,080₫</p>
+                                                    <span class="old-price">89,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-2">
+                                <div class="card">
+                                    <img src="~/AppData/Img/ForHome/em-g_i-l_-thi_n-th_n-nh_-m_-th_-gi_i-n_y-d_nh-t_ng-cho-t_i-_1__5c06d889e475426e8341b2eca14e7ad9_grande.png" />
+                                    <div class="card-body">
+                                        <div class="card-detail">
+                                            <div class="card-name">
+                                                <a href="#">
+                                                    <p>Em Gái Là Thiên Thần Nhỏ Mà Thế Giới Này Dành Tặng Cho Tôi</p>
+                                                </a>
+                                            </div>
+                                            <div class="card-price">
+                                                <p class="sale-price primary-color">71,280₫</p>
+                                                <span class="old-price">90,000₫</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div>
+                            <div class="col-2">
+                                <div class="card">
+                                    <img src="~/AppData/Img/ForHome/h_nh-tinh-c_a-m_t-k_-ngh_-nhi_u-tr_c-1-1_b0be8a0db16c444d9e46c4d49ee57409_grande.png" />
+                                    <div class="card-body">
+                                        <div class="card-detail">
+                                            <div class="card-name">
+                                                <a href="#">
+                                                    <p>Hành Tinh Của Một Kẻ Nghĩ Nhiều</p>
+                                                </a>
+                                            </div>
+                                            <div class="card-price">
+                                                <p class="sale-price primary-color">61,920₫</p>
+                                                <span class="old-price">86,000₫</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>   
+                            </div>
+                            <div class="col-2">
+                                <div class="card">
+                                    <img src="~/AppData/Img/ForHome/image_188343_92702fab4d3649c49d599dab93cbd1f8_grande.png" />
+                                    <div class="card-body">
+                                        <div class="card-detail">
+                                            <div class="card-name">
+                                                <a href="#">
+                                                    <p>Luyện viết Tiếng Anh 4/1</p>
+                                                </a>
+                                            </div>
+                                            <div class="card-price">
+                                                <p class="sale-price primary-color">7,000₫</p>
+                                                <span class="old-price">26,000₫</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>   
+                            </div>
+                            <div class="col-2">
+                                <div class="card">
+                                    <img src="~/AppData/Img/ForHome/image_188344_e89c54bbc5e748e09f5fb2590a5cda2c_grande.png" />
+                                    <div class="card-body">
+                                        <div class="card-detail">
+                                            <div class="card-name">
+                                                <a href="#">
+                                                    <p>Luyện viết Tiếng Anh 4/2</p>
+                                                </a>
+                                            </div>
+                                            <div class="card-price">
+                                                <p class="sale-price primary-color">7,000₫</p>
+                                                <span class="old-price">26,000₫</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>   
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <div class="view-more">
+                                <a href="#">Xem thêm</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section section-5 mbt-35">
+            <div class="container">
+                <div class="home-sale">
+                    <div class="section-title title-flex" style="background: #ff5800;">
+                        <p>LỊCH 2024</p>
+                    </div>
+                    <div class="border border-1 p-15-26">
+                        <div class="p-0-16 row">
+                            <div class="col-2">
+                                <div class="card">
+                                    <a class="img-resize" href="#">
+                                        <img src="~/AppData/Img/ForHome/bloc_ca_chep_fbdb5d0d8b244991899fee5df642fdbb_grande.png" />
+                                    </a>
+                                    <div class="card-body">
+                                        <div class="card-detail">
+                                            <div class="card-name">
+                                                <a href="#">
+                                                    <p>Bìa Lò Xo Giữa Gắn Bloc</p>
+                                                </a>
+                                            </div>
+                                            <div class="card-price">
+                                                <p class="sale-price primary-color">106,560₫</p>
+                                                <span class="old-price">148,000₫</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="card">
+                                    <a class="img-resize" href="#">
+                                        <img src="~/AppData/Img/ForHome/0014_7d83923297364fe8853f739fbea9f765_grande.png" />
+                                    </a>
+                                    <div class="card-body">
+                                        <div class="card-detail">
+                                            <div class="card-name">
+                                                <a href="#">
+                                                    <p>Bloc Lịch Đại 2024 - 14,5 x 20,5 cm</p>
+                                                </a>
+                                            </div>
+                                            <div class="card-price">
+                                                <p class="sale-price primary-color">68,000₫</p>
+                                                <span class="old-price">85,000₫</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="card">
+                                    <a class="img-resize" href="#">
+                                        <img src="~/AppData/Img/ForHome/86193b493da0e8feb1b1_08281285c4f34203b91f17f3d7221620_grande.png" />
+                                    </a>
+                                    <div class="card-body">
+                                        <div class="card-detail">
+                                            <div class="card-name">
+                                                <a href="#">
+                                                    <p>Bìa Lò Xo Giữa Gắn Bloc</p>
+                                                </a>
+                                            </div>
+                                            <div class="card-price">
+                                                <p class="sale-price primary-color">106,560₫</p>
+                                                <span class="old-price">148,000₫</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="card">
+                                    <a class="img-resize" href="#">
+                                        <img src="~/AppData/Img/ForHome/927c462640cf9591ccde_5c286f2dacb946318fe7c53c81cb25d1_grande.png" />
+                                    </a>
+                                    <div class="card-body">
+                                        <div class="card-detail">
+                                            <div class="card-name">
+                                                <a href="#">
+                                                    <p>Bìa Lò Xo Giữa Gắn Bloc</p>
+                                                </a>
+                                            </div>
+                                            <div class="card-price">
+                                                <p class="sale-price primary-color">106,560₫</p>
+                                                <span class="old-price">148,000₫</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="card">
+                                    <a class="img-resize" href="#">
+                                        <img src="~/AppData/Img/ForHome/lxg_thinh_vuong_e397c63a4765461699bcd9b274116bd5_grande.png" />
+                                    </a>
+                                    <div class="card-body">
+                                        <div class="card-detail">
+                                            <div class="card-name">
+                                                <a href="#">
+                                                    <p>Bìa Lò Xo Giữa Gắn Bloc</p>
+                                                </a>
+                                            </div>
+                                            <div class="card-price">
+                                                <p class="sale-price primary-color">106,560₫</p>
+                                                <span class="old-price">148,000₫</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="card">
+                                    <a class="img-resize" href="#">
+                                        <img src="~/AppData/Img/ForHome/white_modern_beauty_logo_99babc2a7a894b9cb869001d5163a280_grande.png" />
+                                    </a>
+                                    <div class="card-body">
+                                        <div class="card-detail">
+                                            <div class="card-name">
+                                                <a href="#">
+                                                    <p>Bìa Lò Xo Giữa Gắn Bloc</p>
+                                                </a>
+                                            </div>
+                                            <div class="card-price">
+                                                <p class="sale-price primary-color">106,560₫</p>
+                                                <span class="old-price">148,000₫</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <div class="view-more">
+                                <a href="@Url.Action("Lich2024", "Collections")">Xem thêm</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section section-6">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <a href="#">
+                            <img src="~/AppData/Img/ForHome/three_index_1.png" />
+                        </a>
+                    </div>
+                    <div class="col-4">
+                        <a href="#">
+                            <img src="~/AppData/Img/ForHome/three_index_2.png" />
+                        </a>
+                    </div>
+                    <div class="col-4">
+                        <a href="#">
+                            <img src="~/AppData/Img/ForHome/three_index_3.png" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section mbt-35">
+            <div class="container">
+                <div class="home-collection">
+                    <div class="row">
+                        <div class="home-collection-title col-3">
+                            <p>THƯ VIỆN SÁCH</p>
+                        </div>
+                        <div class="col-9">
+                            <nav class="navbar">
+                                <ul class="nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link primary-color" href="#">SÁCH TIẾNG HÀN FIRST NEWS GIẢM 35%</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">THIẾU NHI</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">TRUYỆN COMIC, MANGA</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">THAM KHẢO</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">HỌC NGOẠI NGỮ</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="home-collection-content border border-1 p-15-26">
+                    <div class="row">
+                        <div class="col-3">
+                            <a href="#">
+                                <img src="~/AppData/Img/ForHome/banner_collection_one.png" />
+                            </a>
+                        </div>
+                        <div class="col-9">
+                            <div class="row row-cols-5 home-collection-row1">
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row row-cols-5 home-collection-row2">
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div class="collection-view-more">
+                            <a href="#">Xem thêm</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section mbt-35">
+            <div class="container">
+                <div class="home-collection">
+                    <div class="row">
+                        <div class="home-collection-title col-3">
+                            <p>THƯ VIỆN SÁCH</p>
+                        </div>
+                        <div class="col-9">
+                            <nav class="navbar">
+                                <ul class="nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link primary-color" href="#">SÁCH TIẾNG HÀN FIRST NEWS GIẢM 35%</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">THIẾU NHI</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">TRUYỆN COMIC, MANGA</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">THAM KHẢO</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">HỌC NGOẠI NGỮ</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="home-collection-content border border-1 p-15-26">
+                    <div class="row">
+                        <div class="col-3">
+                            <a href="#">
+                                <img src="~/AppData/Img/ForHome/banner_collection_one.png" />
+                            </a>
+                        </div>
+                        <div class="col-9">
+                            <div class="row row-cols-5 home-collection-row1">
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row row-cols-5 home-collection-row2">
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div class="collection-view-more">
+                            <a href="#">Xem thêm</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section mbt-35">
+            <div class="container">
+                <div class="home-collection">
+                    <div class="row">
+                        <div class="home-collection-title col-3">
+                            <p>THƯ VIỆN SÁCH</p>
+                        </div>
+                        <div class="col-9">
+                            <nav class="navbar">
+                                <ul class="nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link primary-color" href="#">SÁCH TIẾNG HÀN FIRST NEWS GIẢM 35%</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">THIẾU NHI</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">TRUYỆN COMIC, MANGA</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">THAM KHẢO</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">HỌC NGOẠI NGỮ</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="home-collection-content border border-1 p-15-26">
+                    <div class="row">
+                        <div class="col-3">
+                            <a href="#">
+                                <img src="~/AppData/Img/ForHome/banner_collection_one.png" />
+                            </a>
+                        </div>
+                        <div class="col-9">
+                            <div class="row row-cols-5 home-collection-row1">
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row row-cols-5 home-collection-row2">
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div class="collection-view-more">
+                            <a href="#">Xem thêm</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section mbt-35">
+            <div class="container">
+                <div class="home-collection">
+                    <div class="row">
+                        <div class="home-collection-title col-3">
+                            <p>THƯ VIỆN SÁCH</p>
+                        </div>
+                        <div class="col-9">
+                            <nav class="navbar">
+                                <ul class="nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link primary-color" href="#">SÁCH TIẾNG HÀN FIRST NEWS GIẢM 35%</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">THIẾU NHI</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">TRUYỆN COMIC, MANGA</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">THAM KHẢO</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">HỌC NGOẠI NGỮ</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="home-collection-content border border-1 p-15-26">
+                    <div class="row">
+                        <div class="col-3">
+                            <a href="#">
+                                <img src="~/AppData/Img/ForHome/banner_collection_one.png" />
+                            </a>
+                        </div>
+                        <div class="col-9">
+                            <div class="row row-cols-5 home-collection-row1">
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row row-cols-5 home-collection-row2">
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div class="collection-view-more">
+                            <a href="#">Xem thêm</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section mbt-35">
+            <div class="container">
+                <div class="home-collection">
+                    <div class="row">
+                        <div class="home-collection-title col-3">
+                            <p>THƯ VIỆN SÁCH</p>
+                        </div>
+                        <div class="col-9">
+                            <nav class="navbar">
+                                <ul class="nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link primary-color" href="#">SÁCH TIẾNG HÀN FIRST NEWS GIẢM 35%</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">THIẾU NHI</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">TRUYỆN COMIC, MANGA</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">THAM KHẢO</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">HỌC NGOẠI NGỮ</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="home-collection-content border border-1 p-15-26">
+                    <div class="row">
+                        <div class="col-3">
+                            <a href="#">
+                                <img src="~/AppData/Img/ForHome/banner_collection_one.png" />
+                            </a>
+                        </div>
+                        <div class="col-9">
+                            <div class="row row-cols-5 home-collection-row1">
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row row-cols-5 home-collection-row2">
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div class="collection-view-more">
+                            <a href="#">Xem thêm</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section mbt-35">
+            <div class="container">
+                <div class="home-collection">
+                    <div class="row">
+                        <div class="home-collection-title col-3">
+                            <p>THƯ VIỆN SÁCH</p>
+                        </div>
+                        <div class="col-9">
+                            <nav class="navbar">
+                                <ul class="nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link primary-color" href="#">SÁCH TIẾNG HÀN FIRST NEWS GIẢM 35%</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">THIẾU NHI</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">TRUYỆN COMIC, MANGA</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">THAM KHẢO</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">HỌC NGOẠI NGỮ</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="home-collection-content border border-1 p-15-26">
+                    <div class="row">
+                        <div class="col-3">
+                            <a href="#">
+                                <img src="~/AppData/Img/ForHome/banner_collection_one.png" />
+                            </a>
+                        </div>
+                        <div class="col-9">
+                            <div class="row row-cols-5 home-collection-row1">
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row row-cols-5 home-collection-row2">
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="~/AppData/Img/ForHome/8935325011818_5964279db2f341999d807837ba3844fa_grande.png" />
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Đứa Trẻ Hiểu Chuyện Thường Không Có Kẹo Ăn</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">106,560₫</p>
+                                                    <span class="old-price">148,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div class="collection-view-more">
+                            <a href="#">Xem thêm</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section mbt-35">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="home-collection-title">
+                            <p>MÌ TIỆN LỢI CHO GIA ĐÌNH</p>
+                        </div>
+                        <div class="border border-1 p-15-26">
+                            <div class="block-img">
+                                <a href="#">
+                                    <img src="~/AppData/Img/ForHome/collection_double_index_1.png" />
+                                </a>
+                            </div>
+                            <div class="collection-double row row-cols-3">
+                                <div class="col">
+                                    <div class="card">
+                                        <a class="img-resize" href="#">
+                                            <img src="~/AppData/Img/ForHome/screenshot_7_f7366844de5c4c648a6fba88544b73c4_grande.png" />
+                                        </a>
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Hủ tiếu bò kho có thịt thật gói Chinsu gói 152g</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">22,425₫</p>
+                                                    <span class="old-price">29,900₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <a class="img-resize" href="#">
+                                            <img src="~/AppData/Img/ForHome/mi-khoai-tay-omachi-special-bo-ham-xot-vang-goi-92g-201912081317547528_72f7943ee4fc4b0fa6e1270872d1b918_grande.png" />
+                                        </a>
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Mì khoai tây Omachi Special bò hầm xốt vang gói 92g (có gói thịt thật)</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">8,200₫</p>
+                                                    <span class="old-price">10,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <a class="img-resize" href="#">
+                                            <img src="~/AppData/Img/ForHome/c-ly-khoai-t-c3-a2y-cung-c4-90-c3-acnh-cua-b-e1-bb-83-rau-r-c4-83m-65g_f22011ade0004d72b9f3a3938c847de3_grande.png" />
+                                        </a>
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Mì Ly Khoai Tây Cung Đình Cua Bể Rau Răm (65g)</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">7,760₫</p>
+                                                    <span class="old-price">9,700₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <div class="collection-view-more">
+                                    <a href="#">Xem thêm</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="home-collection-title">
+                            <p>MÌ TIỆN LỢI CHO GIA ĐÌNH</p>
+                        </div>
+                        <div class="border border-1 p-15-26">
+                            <div class="block-img">
+                                <a href="#">
+                                    <img src="~/AppData/Img/ForHome/collection_double_index_1.png" />
+                                </a>
+                            </div>
+                            <div class="collection-double row row-cols-3">
+                                <div class="col">
+                                    <div class="card">
+                                        <a class="img-resize" href="#">
+                                            <img src="~/AppData/Img/ForHome/screenshot_7_f7366844de5c4c648a6fba88544b73c4_grande.png" />
+                                        </a>
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Hủ tiếu bò kho có thịt thật gói Chinsu gói 152g</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">22,425₫</p>
+                                                    <span class="old-price">29,900₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <a class="img-resize" href="#">
+                                            <img src="~/AppData/Img/ForHome/mi-khoai-tay-omachi-special-bo-ham-xot-vang-goi-92g-201912081317547528_72f7943ee4fc4b0fa6e1270872d1b918_grande.png" />
+                                        </a>
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Mì khoai tây Omachi Special bò hầm xốt vang gói 92g (có gói thịt thật)</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">8,200₫</p>
+                                                    <span class="old-price">10,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <a class="img-resize" href="#">
+                                            <img src="~/AppData/Img/ForHome/c-ly-khoai-t-c3-a2y-cung-c4-90-c3-acnh-cua-b-e1-bb-83-rau-r-c4-83m-65g_f22011ade0004d72b9f3a3938c847de3_grande.png" />
+                                        </a>
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Mì Ly Khoai Tây Cung Đình Cua Bể Rau Răm (65g)</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">7,760₫</p>
+                                                    <span class="old-price">9,700₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <div class="collection-view-more">
+                                    <a href="#">Xem thêm</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row"
+                     style="margin-top: 35px">
+                    <div class="col-6">
+                        <div class="home-collection-title">
+                            <p>MÌ TIỆN LỢI CHO GIA ĐÌNH</p>
+                        </div>
+                        <div class="border border-1 p-15-26">
+                            <div class="block-img">
+                                <a href="#">
+                                    <img src="~/AppData/Img/ForHome/collection_double_index_1.png" />
+                                </a>
+                            </div>
+                            <div class="collection-double row row-cols-3">
+                                <div class="col">
+                                    <div class="card">
+                                        <a class="img-resize" href="#">
+                                            <img src="~/AppData/Img/ForHome/screenshot_7_f7366844de5c4c648a6fba88544b73c4_grande.png" />
+                                        </a>
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Hủ tiếu bò kho có thịt thật gói Chinsu gói 152g</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">22,425₫</p>
+                                                    <span class="old-price">29,900₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <a class="img-resize" href="#">
+                                            <img src="~/AppData/Img/ForHome/mi-khoai-tay-omachi-special-bo-ham-xot-vang-goi-92g-201912081317547528_72f7943ee4fc4b0fa6e1270872d1b918_grande.png" />
+                                        </a>
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Mì khoai tây Omachi Special bò hầm xốt vang gói 92g (có gói thịt thật)</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">8,200₫</p>
+                                                    <span class="old-price">10,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <a class="img-resize" href="#">
+                                            <img src="~/AppData/Img/ForHome/c-ly-khoai-t-c3-a2y-cung-c4-90-c3-acnh-cua-b-e1-bb-83-rau-r-c4-83m-65g_f22011ade0004d72b9f3a3938c847de3_grande.png" />
+                                        </a>
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Mì Ly Khoai Tây Cung Đình Cua Bể Rau Răm (65g)</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">7,760₫</p>
+                                                    <span class="old-price">9,700₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <div class="collection-view-more">
+                                    <a href="#">Xem thêm</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="home-collection-title">
+                            <p>MÌ TIỆN LỢI CHO GIA ĐÌNH</p>
+                        </div>
+                        <div class="border border-1 p-15-26">
+                            <div class="block-img">
+                                <a href="#">
+                                    <img src="~/AppData/Img/ForHome/collection_double_index_1.png" />
+                                </a>
+                            </div>
+                            <div class="collection-double row row-cols-3">
+                                <div class="col">
+                                    <div class="card">
+                                        <a class="img-resize" href="#">
+                                            <img src="~/AppData/Img/ForHome/screenshot_7_f7366844de5c4c648a6fba88544b73c4_grande.png" />
+                                        </a>
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Hủ tiếu bò kho có thịt thật gói Chinsu gói 152g</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">22,425₫</p>
+                                                    <span class="old-price">29,900₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <a class="img-resize" href="#">
+                                            <img src="~/AppData/Img/ForHome/mi-khoai-tay-omachi-special-bo-ham-xot-vang-goi-92g-201912081317547528_72f7943ee4fc4b0fa6e1270872d1b918_grande.png" />
+                                        </a>
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Mì khoai tây Omachi Special bò hầm xốt vang gói 92g (có gói thịt thật)</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">8,200₫</p>
+                                                    <span class="old-price">10,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <a class="img-resize" href="#">
+                                            <img src="~/AppData/Img/ForHome/c-ly-khoai-t-c3-a2y-cung-c4-90-c3-acnh-cua-b-e1-bb-83-rau-r-c4-83m-65g_f22011ade0004d72b9f3a3938c847de3_grande.png" />
+                                        </a>
+                                        <div class="card-body">
+                                            <div class="card-detail">
+                                                <div class="card-name">
+                                                    <a href="#">
+                                                        <p>Mì Ly Khoai Tây Cung Đình Cua Bể Rau Răm (65g)</p>
+                                                    </a>
+                                                </div>
+                                                <div class="card-price">
+                                                    <p class="sale-price primary-color">7,760₫</p>
+                                                    <span class="old-price">9,700₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <div class="collection-view-more">
+                                    <a href="#">Xem thêm</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-brand-popular mbt-35">
+            <div class="container">
+                <div class="section-title">
+                    <p>THƯƠNG HIỆU NỔI BẬT</p>
+                </div>
+                <div class="list-brand border border-1 p-15-26">
+                    <div class="row">
+                        <div class="col-2">
+                            <a href="#">
+                                <img src="~/AppData/Img/ForHome/brand_index_1.png" />
+                            </a>
+                        </div>
+                        <div class="col-2">
+                            <a href="#">
+                                <img src="~/AppData/Img/ForHome/brand_index_2.png" />
+                            </a>
+                        </div>
+                        <div class="col-2">
+                            <a href="#">
+                                <img src="~/AppData/Img/ForHome/brand_index_3.png" />
+                            </a>
+                        </div>
+                        <div class="col-2">
+                            <a href="#">
+                                <img src="~/AppData/Img/ForHome/brand_index_4.png" />
+                            </a>
+                        </div>
+                        <div class="col-2">
+                            <a href="#">
+                                <img src="~/AppData/Img/ForHome/brand_index_5.png" />
+                            </a>
+                        </div>
+                        <div class="col-2">
+                            <a href="#">
+                                <img src="~/AppData/Img/ForHome/brand_index_6.png" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-bog mbt-35">
+            <div class="container">
+                <div class="section-title">
+                    <p>BÀI VIẾT MỚI NHẤT</p>
+                </div>
+                <div class="list-blog border border-1">
+                    <div class="row row-cols-5 p-15-26">
+                        <div class="col">
+                            <div class="item-blog">
+                                <div class="blog-img">
+                                    <img src="~/AppData/Img/ForHome/tom-tat-truyen-ngan-chiec-thuyen-ngoai-xa_37faa1e367654b1d965886a186ab4119_grande.png" />
+                                </div>
+                                <div class="blog-info">
+                                    <div class="time-publish">
+                                        <span>Tháng 10 26, 2023</span>
+                                        <span class="comment">
+                                            <i class="fa fa-solid fa-comment"></i>
+                                            0
+                                            <span>Bình luận</span>
+                                        </span>
+                                    </div>
+                                    <div class="blog-title">
+                                        <a href="#">
+                                            Tóm tắt truyện ngắn Chiếc Thuyền Ngoài Xa chi tiết nhất bằng chữ & sơ đồ
+                                        </a>
+                                    </div>
+                                    <div class="blog-des">
+                                        <p>Tác phẩm Chiếc thuyền ngoài xa thuộc thể loại truyện ngắn của tác giả Nguyễn Minh Châu nằm trong chương trình Ngữ Văn 12. Bài viết sau sẽ giúp bạn tóm tắt truyện ngắn Chiếc thuyền ngoài xa ngắn gọn và chi tiết nhất, giúp bạn nắm được nội dung chính...</p>
+                                    </div>
+                                    <a class="viewmore" href="#">Xem thêm</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="item-blog">
+                                <div class="blog-img">
+                                    <img src="~/AppData/Img/ForHome/_1200x900px__thong_bao_-_24.png" />
+                                </div>
+                                <div class="blog-info">
+                                    <div class="time-publish">
+                                        <span>Tháng 10 26, 2023</span>
+                                        <span class="comment">
+                                            <i class="fa fa-solid fa-comment"></i>
+                                            0
+                                            <span>Bình luận</span>
+                                        </span>
+                                    </div>
+                                    <div class="blog-title">
+                                        <a href="#">
+                                            ❗❗[THÔNG BÁO] Đóng cửa chi nhánh 207 Đinh Tiên Hoàng - Nhà sách Nhân Văn
+                                        </a>
+                                    </div>
+                                    <div class="blog-des">
+                                        <p>
+                                            📣Nhà sách Nhân Văn xin thông báo ngưng hoạt động mua bán tại chi nhánh 207 Đinh Tiên Hoàng, Phường Tân Định, Quận 1, TP.HCM❌❌Thời gian ngưng hoạt động từ ngày: 24/10/2023 ✔✔Ngoài ra, các chi nhánh khác và các kênh TMĐT của Nhân Văn vẫn hoạt động bình thường:◾ Số...
+                                        </p>
+                                    </div>
+                                    <a class="viewmore" href="#">Xem thêm</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="item-blog">
+                                <div class="blog-img">
+                                    <img src="~/AppData/Img/ForHome/cach-choi-tro-choi-tren-may-tinh-casio_c6cc9a686a77411e927f95720147202d_grande.png" />
+                                </div>
+                                <div class="blog-info">
+                                    <div class="time-publish">
+                                        <span>Tháng 10 26, 2023</span>
+                                        <span class="comment">
+                                            <i class="fa fa-solid fa-comment"></i>
+                                            0
+                                            <span>Bình luận</span>
+                                        </span>
+                                    </div>
+                                    <div class="blog-title">
+                                        <a href="#">
+                                            Top 5 trò chơi trên máy tính Casio & hướng dẫn cách chơi
+                                        </a>
+                                    </div>
+                                    <div class="blog-des">
+                                        <p>Máy tính Casio không chỉ là thiết bị hỗ trợ học tập, giờ đây nó còn hỗ trợ học sinh, sinh viên giải trí thư giãn với đủ các loại trò chơi. Bài biết sau sẽ chia sẻ cho bạn 6 trò chơi trên máy tính Casio 500MS và Casio fx880 đơn...</p>
+                                    </div>
+                                    <a class="viewmore" href="#">Xem thêm</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="item-blog">
+                                <div class="blog-img">
+                                    <img src="~/AppData/Img/ForHome/cach-viet-thu-cho-ong-gia-noel_5026d9cf6c854649bf77a89213da3995_grande.png" />
+                                </div>
+                                <div class="blog-info">
+                                    <div class="time-publish">
+                                        <span>Tháng 10 26, 2023</span>
+                                        <span class="comment">
+                                            <i class="fa fa-solid fa-comment"></i>
+                                            0
+                                            <span>Bình luận</span>
+                                        </span>
+                                    </div>
+                                    <div class="blog-title">
+                                        <a href="#">
+                                            Cách viết thư gửi cho ông già Noel hay từ A-Z
+                                        </a>
+                                    </div>
+                                    <div class="blog-des">
+                                        <p>
+                                            Lễ Giáng Sinh hay còn gọi là Lễ Thiếu Nhi là ngày mà trẻ em trên toàn thế giới đều mong ngóng. Một trong các hoạt động không thể thiếu trong ngày lễ này là viết thư cho ông già Noel. Nội dung trong một bức thư gửi cho ông...
+                                        </p>
+                                    </div>
+                                    <a class="viewmore" href="#">Xem thêm</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="item-blog">
+                                <div class="blog-img">
+                                    <img src="~/AppData/Img/ForHome/qua-noel-cho-be_b99e2364173e469581a12daa5fe2da32_grande.png" />
+                                </div>
+                                <div class="blog-info">
+                                    <div class="time-publish">
+                                        <span>Tháng 10 26, 2023</span>
+                                        <span class="comment">
+                                            <i class="fa fa-solid fa-comment"></i>
+                                            0
+                                            <span>Bình luận</span>
+                                        </span>
+                                    </div>
+                                    <div class="blog-title">
+                                        <a href="#">
+                                            Top 20 món quà Noel cho Bé Trai và Bé Gái ý nghĩa, độc đáo và bất ngờ nhất
+                                        </a>
+                                    </div>
+                                    <div class="blog-des">
+                                        <p>
+                                            Giáng sinh đang đến rất gần, đây là dịp mà người lớn sẽ tặng quà cho trẻ em những món quà như một lời động viên với những đứa trẻ ngoan. Bài viết này, Nhân Văn sẽ gợi ý một số món quà Noel cho các bé vừa độc đáo,...
+                                        </p>
+                                    </div>
+                                    <a class="viewmore" href="#">Xem thêm</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+
+    <script src="~/Scripts/bootstrap.bundle.min.js"></script>
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,270 @@
+@font-face {
+    font-family: 'Quicksand';
+    src: url(/AppData/Font/Quicksand-Regular.ttf) format('truetype');
+}
+
+* {
+    font-family: 'Quicksand', sans-serif !important;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+.primary-color {
+    color: #FF5800;
+}
+
+.fa {
+    font-family: 'FontAwesome' !important;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+img {
+    max-width: 100%;
+}
+
+.mbt-35 {
+    margin: 35px 0;
+}
+
+.p-15-26 {
+    padding: 15px 26px;
+}
+
+/*SECTION*/
+.section-1 {
+    margin-top: 7px;
+}
+
+.home-slider img {
+    margin: 4px 0;
+}
+.banner-right img {
+    width: 100%;
+}
+
+.section-2 {
+    margin-top: 15px;
+}
+
+.list-policy {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-policy {
+    display: -webkit-inline-box;
+    width: 235.68px;
+}
+
+.icon-policy {
+    width: 60px;
+}
+
+.info-policy {
+    padding-left: 5px;
+}
+
+.info-policy .des {
+    width: 186px;
+}
+
+.info-policy h5 {
+    font-weight: bold;
+}
+
+.info-policy .des {
+    opacity: 0.6;    
+    margin-bottom: 0;
+}
+
+/*LIST SALE*/
+.home-sale .section-title {
+    padding-left: 15px;
+    height: 48px;
+}
+
+.section-title p {
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 48px
+}
+
+.card .img-resize img {
+    object-fit: contain;
+    height: 187.13px;
+    text-align: center;
+    width: 187.13px;
+}
+
+.card-detail .card-name {
+    height: 40px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-price .sale-price {
+    display: inline;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.card-price .old-price {
+    margin-left: 5px;
+    opacity: 0.6;
+    text-decoration: line-through;
+    font-size: 16px;
+}
+
+.view-more {
+    padding-top: 28px;
+}
+
+.view-more a,
+.collection-view-more a {
+    display: inline-block;
+    margin-bottom: 15px;
+    background: #FF5800;
+    padding: 8px 50px;
+    border-radius: 20px;
+    color: #fff;
+}
+
+/*COLLECTION*/
+.home-collection-title p::before {
+    border-right: 16px solid #0272bc;
+    position: absolute;
+    content: '';
+    top: -9px;
+    left: 0;
+    border-top: 10px solid #fff;
+}
+
+.home-collection-title p {
+    background: #0272bc;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    display: inline-block;
+    padding: 15px 45px 15px 20px;
+    position: relative;
+    border-top-right-radius: 6px;
+}
+
+.nav-item .primary-color,
+.nav-item .primary-color:hover,
+.nav-item a:hover {
+    color: #FF5800 !important;
+}
+
+.nav-item a {
+    color: #000000;
+}
+
+.home-collection {
+    border-bottom: 2px solid #0272bc;
+}
+
+.home-collection-row1 {
+    margin-top: 20px;
+}
+
+.home-collection-row2 {
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+/*COLLECTION DOUBLE INDEX*/
+.collection-double {
+    padding-top: 30px;
+    padding-bottom: 16px;
+}
+
+/*BRAND POPURLAR*/
+.section-title {
+    padding-left: 15px;
+    background: #0272bc;
+}
+
+.list-brand,
+.list-blog {
+    background: #f5f5f5;
+}
+
+.list-brand img:hover {
+    border: 1px solid #FF5800;
+}
+
+/*BLOG*/
+.blog-info {
+    background: #ffffff;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.time-publish {
+    margin-bottom: 10px;
+    opacity: 0.6;
+}
+
+.time-publish .comment {
+    margin-left: 10px;
+}
+
+.blog-title {
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.blog-title a {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.blog-title a,
+.blog-info .blog-des {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.3;
+    height: 60px;
+}
+
+.blog-info .blog-des {
+    height: 55px;
+    margin-bottom: 10px;
+}
+
+.blog-info .viewmore {
+    width: 110px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    border: 1px solid #ddd;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.blog-info .viewmore:hover {
+    background: #FF5800;
+    border-color: #FF5800;
+    color: #ffffff;
+}
+
+
+

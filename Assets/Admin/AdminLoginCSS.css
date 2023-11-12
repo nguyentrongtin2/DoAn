@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Quicksand';
+    src: url(/AppData/Font/Quicksand-Regular.ttf) format('truetype');
+}
+
+* {
+    font-family: 'Quicksand', sans-serif !important;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+main {
+    background: #f5f5f5;
+}
+
+.bg-primary-color {
+    background: #4e73df
+}
+
+form.user .form-control-user {
+    border-radius: 24px;
+    padding: 24px;
+    height: 58px;
+    font-size: 16px;
+}
+
+form.user .btn-user {
+    height: 52px;
+    border-radius: 24px;
+    padding-top: 12px;
+    font-size: 16px;
+}
+
+.btn-block {
+    width: 100%;
+}
