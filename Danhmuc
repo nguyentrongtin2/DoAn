@@ -1,0 +1,110 @@
+<div class="header-bottom hidden-xs hidden-sm">
+                                            <div class="container">
+                                                <div class="col-md-3 col-xs-3 vertical-menu"><div class="title-block">
+                                    <span>Danh mục </span><i class="fa fa-bars" aria-hidden="true"></i>
+                                </div>
+                                <ul class="vertical-navigation">
+                                    
+                                    
+                                    <li class="vertical-item"><a href="/collections/thu-vien-sach-nhan-van"><i class="fa fa-th-large" aria-hidden="true"></i>KHO TÀNG SÁCH<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                        <div class="sub-vertical">
+                                            <div class="vertical-inner">								
+                                                <div class="inner-menu-left clearfix">
+                                                    
+                                                    <div class="vertical-col col-md-3 col-sm-3">
+                                                        <h4><a href="/collections/sach-doc-quyen-nhan-van">Sách Độc Quyền</a></h4>
+                                                        <ul class="vertical-link">
+                                                            
+                                                            <li class="sub-vertical-item"><a href="/collections/sach-tieng-hoa-doc-quyen-nhan-van">Sách Tiếng Hoa Độc Quyền Nhân Văn</a></li>
+                                                            
+                                                            <li class="sub-vertical-item"><a href="/collections/sach-ngoai-ngu-doc-quyen-nhan-van">Sách Ngoại Ngữ Độc Quyền Nhân Văn</a></li>
+                                                            
+                                                            <li class="sub-vertical-item"><a href="/collections/doc-quyen-nhan-van-moi-phat-hanh">ĐỘC QUYỀN NHÂN VĂN MỚI PHÁT HÀNH</a></li>
+                                                            
+                                                            <li class="sub-vertical-item"><a href="/collections/tu-sach-biet-noi">Tủ Sách Biết Nói - Kèm File Âm Thanh</a></li>
+                                                            
+                                                            
+                                                                                                            
+                                                        </ul>
+                                                    </div>
+                                                    
+                                                    <div class="vertical-col col-md-3 col-sm-3">
+                                                        <h4><a href="/collections/top-sach-tam-ly-ky-nang-song-hay">SÁCH TÂM LÝ - KỸ NĂNG SỐNG</a></h4>
+                                                        <ul class="vertical-link">
+                                                            
+                                                            <li class="sub-vertical-item"><a href="/collections/sach-tam-ly">Sách Tâm Lý</a></li>
+                                                            
+                                                            <li class="sub-vertical-item"><a href="/collections/sach-cho-tuoi-moi-lon">Sách Cho Tuổi Mới Lớn</a></li>
+                                                            
+                                                            <li class="sub-vertical-item"><a href="/collections/sach-ky-nang-song">Sách Kỹ Năng Sống</a></li>
+                                                            
+                                                            
+                                                                                                            
+                                                        </ul>
+                                                    </div>
+                                                    
+                                                    <div class="vertical-col col-md-3 col-sm-3">
+                                                        <h4><a href="/collections/kho-tang-sach-van-hoc">SÁCH VĂN HỌC</a></h4>
+                                                        <ul class="vertical-link">
+                                                            
+                                                            <li class="sub-vertical-item"><a href="/collections/truyen-tieu-thuyet">Tiếu Thuyết</a></li>
+                                                            
+                                                            <li class="sub-vertical-item"><a href="/collections/sach-truyen-ngan-tan-van">Truyện Ngắn - Tản Văn</a></li>
+                                                            
+                                                            <li class="sub-vertical-item"><a href="/collections/sach-ngon-tinh">Ngôn Tình</a></li>
+                                                            
+                                                            <li class="sub-vertical-item"><a href="/collections/truyen-trinh-tham-kiem-hiep">Truyện Trinh Thám - Kiếm Hiệp</a></li>
+                                                            
+                                                            
+                                                            <li class="sub-vertical-item hide"><a href="/collections/tac-pham-van-hoc-kinh-dien">Tác Phẩm Văn Học Kinh Điển</a></li>
+                                                            
+                                                            <li class="sub-vertical-item hide"><a href="/collections/sach-huyen-bi-gia-tuong-kinh-di">Huyền Bí - Giả Tưởng - Kinh Dị</a></li>
+                                                            
+                                                            <li class="sub-vertical-item hide"><a href="/collections/phong-su-ky-su-phe-binh-van-hoc">Phóng Sự - Ký Sự - Phê Bình Văn Học</a></li>
+                                                            
+                                                            <li class="sub-vertical-item hide"><a href="/collections/tho-ca-tuc-ngu-ca-dao-thanh-ngu">Thơ Ca - Tục Ngữ - Ca Dao - Thành Ngữ</a></li>
+                                                            
+                                                            <li class="sub-vertical-item hide"><a href="/collections/tac-gia-tac-pham">Tác Giả - Tác Phẩm</a></li>
+                                                            
+                                                            <li class="sub-vertical-item hide"><a href="/collections/truyen-tuoi-teen">Tuổi Teen</a></li>
+                                                            
+                                                            <li class="sub-vertical-item hide"><a href="/collections/hai-huoc-truyen-cuoi">Hài Hước - Truyện Cười</a></li>
+                                                            
+                                                            <li class="sub-vertical-item hide"><a href="/collections/van-hoc-viet-nam">Văn Học Việt Nam</a></li>
+                                                            
+                                                            
+                                                            <li class="rmove-show"><a href="javascript:void(0)">Xem thêm...</a></li>
+                                                                                                            
+                                                        </ul>
+                                                    </div>
+                                                    
+                                                    <div class="vertical-col col-md-3 col-sm-3">
+                                                        <h4><a href="/collections/sach-thieu-nhi">SÁCH THIẾU NHI</a></h4>
+                                                        <ul class="vertical-link">
+                                                            
+                                                            <li class="sub-vertical-item"><a href="/collections/truyen-tranh-comic-books">Truyện Tranh Comic Books</a></li>
+                                                            
+                                                            <li class="sub-vertical-item"><a href="/collections/truyen-tranh-thieu-nhi">Truyện Tranh Thiếu Nhi</a></li>
+                                                            
+                                                            <li class="sub-vertical-item"><a href="/collections/truyen-doc-thieu-nhi">Truyện Đọc Thiếu Nhi</a></li>
+                                                            
+                                                            <li class="sub-vertical-item"><a href="/collections/truyen-co-tich">Truyện Cổ Tích</a></li>
+                                                            
+                                                            
+                                                            <li class="sub-vertical-item hide"><a href="/collections/tap-to-mau">Tập Tô Màu</a></li>
+                                                            
+                                                            <li class="sub-vertical-item hide"><a href="/collections/sach-luyen-chu">Sách Luyện Chữ</a></li>
+                                                            
+                                                            <li class="sub-vertical-item hide"><a href="/collections/tu-dien-thieu-nhi">Từ Điển Thiếu Nhi</a></li>
+                                                            
+                                                            <li class="sub-vertical-item hide"><a href="/collections/flashcard-the-hoc-thong-minh">Flashcard - Thẻ Học Thông Minh</a></li>
+                                                            
+                                                            <li class="sub-vertical-item hide"><a href="/collections/tieng-anh-thieu-nhi">Tiếng Anh Thiếu Nhi</a></li>
+                                                            
+                                                            <li class="sub-vertical-item hide"><a href="/collections/sach-biet-noi">Sách Nói</a></li>
+                                                            
+                                                            
+                                                            <li class="rmove-show"><a href="javascript:void(0)">Xem thêm...</a></li>
+                                                                                                            
+                                                        </ul>
+                                                    </div>
